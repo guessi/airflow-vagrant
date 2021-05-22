@@ -63,8 +63,8 @@ pip3 install 'google-cloud-bigquery>=1.24.0,<2.0.0'
 pip3 install 'six>=1.16.0,<2.0.0'
 
 # tabcmd
-wget https://downloads.tableau.com/esdalt/2020.1.17/tableau-tabcmd-2020-1-17_all.deb -O /tmp/tableau-tabcmd-2020-1-17_all.deb
-apt install -y /tmp/tableau-tabcmd-2020-1-17_all.deb
+wget https://downloads.tableau.com/esdalt/2021.1.2/tableau-tabcmd-2021-1-2_all.deb -O /tmp/tableau-tabcmd-2021-1-2_all.deb
+apt install -y /tmp/tableau-tabcmd-2021-1-2_all.deb
 
 su - airflow -c '/opt/tableau/tabcmd/bin/tabcmd --accepteula'
 
